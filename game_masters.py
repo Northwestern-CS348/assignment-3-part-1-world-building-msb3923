@@ -43,5 +43,3 @@ class Puzzle8Game(GameMaster):
 
     def produceMovableQuery(self):
         return parse_input('fact: (movable ?piece ?initX ?initY ?targetX ?targetY)')
-
-
